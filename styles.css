@@ -165,6 +165,10 @@ hr {
 }
 
 /* Social */
+.social {
+    margin-bottom: 40px;
+}
+
 .social h3 {
     font-size: 30px;
     text-align: center;
@@ -183,4 +187,53 @@ hr {
 
 .links a i {
     font-size: 3rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+    padding-bottom: 20px;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer__container ul {
+    margin: 0 auto;
+}
+
+.footer__container ul li {
+    line-height: 3;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer__container ul li a {
+    padding-bottom: 3px;
+}
+
+.footer__container ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.footer__header {
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.end {
+    background-color: #2f3640;
+    color: #616161;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
